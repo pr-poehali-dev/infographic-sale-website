@@ -6,34 +6,35 @@ const HeroSection = () => {
     <section className="bg-gradient-to-br from-purple-50 to-indigo-100 py-20">
       <div className="container mx-auto px-4 text-center">
         <h1 className="text-5xl font-bold text-gray-900 mb-6 font-montserrat">
-          Премиум инфографика для ваших проектов
+          Создаем уникальную инфографику для вашего бизнеса
         </h1>
-        <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-          Тысячи профессиональных шаблонов инфографики. Скачивайте, редактируйте
-          и используйте для презентаций, отчетов и маркетинговых материалов.
+        <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+          Персональный подход к каждому проекту. Превращаем сложные данные в
+          понятную и красивую инфографику, которая выделит ваш бренд среди
+          конкурентов.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button size="lg" className="bg-purple-600 hover:bg-purple-700">
-            <Icon name="Search" size={18} />
-            Найти инфографику
+            <Icon name="Mail" size={18} />
+            Заказать дизайн
           </Button>
           <Button variant="outline" size="lg">
-            <Icon name="Play" size={18} />
-            Как это работает
+            <Icon name="Eye" size={18} />
+            Посмотреть работы
           </Button>
         </div>
         <div className="mt-12 grid grid-cols-3 gap-8 max-w-md mx-auto text-center">
           <div>
-            <div className="text-3xl font-bold text-purple-600">5000+</div>
-            <div className="text-sm text-gray-600">Шаблонов</div>
+            <div className="text-3xl font-bold text-purple-600">200+</div>
+            <div className="text-sm text-gray-600">Проектов</div>
           </div>
           <div>
-            <div className="text-3xl font-bold text-purple-600">100K+</div>
-            <div className="text-sm text-gray-600">Скачиваний</div>
+            <div className="text-3xl font-bold text-purple-600">24ч</div>
+            <div className="text-sm text-gray-600">Ответ на заявку</div>
           </div>
           <div>
-            <div className="text-3xl font-bold text-purple-600">24/7</div>
-            <div className="text-sm text-gray-600">Поддержка</div>
+            <div className="text-3xl font-bold text-purple-600">100%</div>
+            <div className="text-sm text-gray-600">Уникальность</div>
           </div>
         </div>
       </div>

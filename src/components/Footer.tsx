@@ -3,25 +3,30 @@ import Icon from "@/components/ui/icon";
 const Footer = () => {
   const footerSections = [
     {
-      title: "Продукт",
+      title: "Услуги",
       links: [
-        "Каталог инфографики",
-        "Новые поступления",
-        "Популярное",
-        "Скидки",
+        "Бизнес-отчеты",
+        "Маркетинговые материалы",
+        "Образовательный контент",
+        "Визуализация данных",
       ],
     },
     {
-      title: "Категории",
-      links: ["Бизнес", "Маркетинг", "Образование", "Здоровье", "Технологии"],
+      title: "Портфолио",
+      links: ["Примеры работ", "Кейсы клиентов", "Отзывы", "Награды"],
     },
     {
-      title: "Поддержка",
-      links: ["Центр помощи", "Контакты", "Лицензии", "API документация"],
+      title: "Процесс",
+      links: ["Как мы работаем", "Сроки выполнения", "Стоимость", "Гарантии"],
     },
     {
-      title: "Компания",
-      links: ["О нас", "Блог", "Карьера", "Пресс-центр"],
+      title: "Контакты",
+      links: [
+        "Оставить заявку",
+        "Связаться с нами",
+        "Офис в Москве",
+        "Вакансии",
+      ],
     },
   ];
 
@@ -33,29 +38,26 @@ const Footer = () => {
             <div className="flex items-center gap-2 mb-4">
               <Icon name="BarChart3" size={24} className="text-purple-400" />
               <span className="text-xl font-bold font-montserrat">
-                InfoMarket
+                InfoDesign
               </span>
             </div>
             <p className="text-gray-400 text-sm mb-6">
-              Премиум маркетплейс инфографики для профессионалов и творческих
-              проектов.
+              Студия создания уникальной инфографики для бизнеса. Персональный
+              подход к каждому проекту.
             </p>
-            <div className="flex gap-4">
-              <Icon
-                name="Mail"
-                size={20}
-                className="text-gray-400 hover:text-purple-400 cursor-pointer transition-colors"
-              />
-              <Icon
-                name="Phone"
-                size={20}
-                className="text-gray-400 hover:text-purple-400 cursor-pointer transition-colors"
-              />
-              <Icon
-                name="MessageCircle"
-                size={20}
-                className="text-gray-400 hover:text-purple-400 cursor-pointer transition-colors"
-              />
+            <div className="space-y-2">
+              <div className="flex items-center gap-2 text-sm">
+                <Icon name="Mail" size={16} className="text-purple-400" />
+                <span className="text-gray-400">info@infographics.ru</span>
+              </div>
+              <div className="flex items-center gap-2 text-sm">
+                <Icon name="Phone" size={16} className="text-purple-400" />
+                <span className="text-gray-400">+7 (900) 123-45-67</span>
+              </div>
+              <div className="flex items-center gap-2 text-sm">
+                <Icon name="Clock" size={16} className="text-purple-400" />
+                <span className="text-gray-400">Ответ в течение 24 часов</span>
+              </div>
             </div>
           </div>
 
@@ -80,7 +82,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            © 2024 InfoMarket. Все права защищены.
+            © 2024 InfoDesign. Все права защищены.
           </p>
           <div className="flex gap-6 mt-4 md:mt-0">
             <a
@@ -93,13 +95,7 @@ const Footer = () => {
               href="#"
               className="text-gray-400 hover:text-white text-sm transition-colors"
             >
-              Условия использования
-            </a>
-            <a
-              href="#"
-              className="text-gray-400 hover:text-white text-sm transition-colors"
-            >
-              Cookies
+              Условия сотрудничества
             </a>
           </div>
         </div>
